@@ -1,0 +1,183 @@
+@import "./css/animate.css";
+@import "./css/animations.min.css";
+@import "./css/bootstrap.min.css";
+@import "./css/css.css";
+@import "./css/extendify-utilities.css";
+@import "./css/flaticon-v2.css";
+@import "./css/flaticon-v3.css";
+@import "./css/flaticon.css";
+@import "./css/font-awesome.min.css";
+@import "./css/font-awesome.min_002.css";
+@import "./css/font-awesome5.min.css";
+@import "./css/frontend-lite.min.css";
+@import "./css/global.css";
+@import "./css/magnific-popup.css";
+@import "./css/main.css";
+@import "./css/material-design-iconic-font.min.css";
+@import "./css/owl.carousel.min.css";
+@import "./css/post-11.css";
+@import "./css/post-2684.css";
+@import "./css/post-39.css";
+@import "./css/progressbar.min.css";
+@import "./css/rs6.css";
+@import "./css/sbi-styles.min.css";
+@import "./css/slick.css";
+@import "./css/style.css";
+@import "./css/styles.css";
+@import "./css/swiper.min.css";
+@import "./css/theme.css";
+/* @import "./base.css"; */
+
+:root {
+    --primary-color: #1e73be;
+    --secondary-color: #dd3333;
+    --third-color: #dd6666;
+    --dark-color: #000000;
+    --primary-color-rgb: 30, 115, 190;
+    --secondary-color-rgb: 221, 51, 51;
+    --third-color-rgb: 221, 102, 102;
+    --dark-color-rgb: 0, 0, 0;
+    --link-color: #1e73be;
+    --link-color-hover: #dd3333;
+    --link-color-active: #89c709;
+    --gradient-color-from: #0c3ef8;
+    --gradient-color-to: #6a84ff;
+    --gradient-color-from-rgb: 12, 62, 248;
+    --gradient-color-to-rgb: 106, 132, 255;
+    --gradient-color-from2: #2f25ea;
+    --gradient-color-to2: #6d96bf;
+    --gradient-color-from2-rgb: 47, 37, 234;
+    --gradient-color-to2-rgb: 109, 150, 191;
+    --gradient-color-from3: #1c7cff;
+    --gradient-color-to3: #5b90bf;
+    --gradient-color-from3-rgb: 28, 124, 255;
+    --gradient-color-to3-rgb: 91, 144, 191;
+    --gradient-color-from4: #006acc;
+    --gradient-color-to4: #01d5ff;
+    --gradient-color-from4-rgb: 0, 106, 204;
+    --gradient-color-to4-rgb: 1, 213, 255;
+}
+@media screen and(max-width:1199px) {
+}
+@media screen and(min-width:1200px) {
+}
+
+.sbi_lb-loader span {
+    --wpr-bg-78f64637-28ea-4e4a-b29d-fcc3cb33a3dd: url("https://cityinsurance.com.bd/wp-content/plugins/instagram-feed/img/sbi-sprite.png");
+}
+.sbi_lb-nav span {
+    --wpr-bg-0788035d-6489-44e4-b220-7d7a92fdd80c: url("https://cityinsurance.com.bd/wp-content/plugins/instagram-feed/img/sbi-sprite.png");
+}
+.owl-carousel .owl-video-play-icon {
+    --wpr-bg-2c439f52-42d0-4b08-a066-e10050bee42d: url("https://cityinsurance.com.bd/wp-content/plugins/case-theme-core/assets/css/lib/owl.video.play.png");
+}
+.ct-fancy-box-layout4 .item--icon:before {
+    --wpr-bg-09f04875-1fca-40bd-bd0a-f75560a3b1b7: url("https://cityinsurance.com.bd/wp-content/themes/alico/assets/images/icon-shadow.png");
+}
+.ct-testimonial-carousel3 .item--image:before {
+    --wpr-bg-66726273-6fe3-44e2-865b-2ea1f00114b1: url("https://cityinsurance.com.bd/wp-content/themes/alico/assets/images/bg-testimonial.png");
+}
+.ct-team-carousel2 .item--holder:after {
+    --wpr-bg-8d7582f2-ba4a-46ac-ac93-2722d38f6c0c: url("https://cityinsurance.com.bd/wp-content/themes/alico/assets/images/bg-team-item.png");
+}
+.ct-feature-carousel1 .item--counter {
+    --wpr-bg-b0ebdce7-7370-46f5-ad17-d9bba7349095: url("https://cityinsurance.com.bd/wp-content/themes/alico/assets/images/dot-light.png");
+}
+.ct-award-carousel1
+    .ct-slick-carousel[data-arrows="true"]
+    .slick-arrow.slick-next {
+    --wpr-bg-281f64ef-62c1-4289-aa0f-283e5f4ade56: url("https://cityinsurance.com.bd/wp-content/themes/alico/assets/images/arrow-right.png");
+}
+.ct-award-carousel1
+    .ct-slick-carousel[data-arrows="true"]
+    .slick-arrow.slick-prev {
+    --wpr-bg-79c4f947-93bb-4abf-9c60-f597fda39c57: url("https://cityinsurance.com.bd/wp-content/themes/alico/assets/images/arrow-left.png");
+}
+.ct-tab-form2 .ct-tab-title:before {
+    --wpr-bg-aaa81326-fef7-4fd0-8e0c-4a5489b78492: url("https://cityinsurance.com.bd/wp-content/themes/alico/assets/images/tab-shadow.png");
+}
+.ct-get-quote1 {
+    --wpr-bg-42df1b0c-9bef-468e-a834-215c095c448d: url("https://cityinsurance.com.bd/wp-content/themes/alico/assets/images/bg-get-quote.png");
+}
+.ct-get-quote1 .ct-quote-meta p i {
+    --wpr-bg-12bf2f84-ee60-40ca-8a33-c2e70fcde7dc: url("https://cityinsurance.com.bd/wp-content/themes/alico/assets/images/like.png");
+}
+.ct-cta1 {
+    --wpr-bg-4e5b4833-e2c2-41d9-bc68-d98d0b6a9369: url("https://cityinsurance.com.bd/wp-content/themes/alico/assets/images/bg-cta.png");
+}
+.ct-fancy-box-layout8 .item--shape {
+    --wpr-bg-e8f51733-9146-4329-9b69-28cbeebeea05: url("https://cityinsurance.com.bd/wp-content/themes/alico/assets/images/box-shape1.png");
+}
+.elementor-11
+    .elementor-element.elementor-element-a8029d9:not(
+        .elementor-motion-effects-element-type-background
+    ),
+.elementor-11
+    .elementor-element.elementor-element-a8029d9
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    --wpr-bg-39a0f3a2-7a89-4577-8709-03c923108c66: url("https://cityinsurance.com.bd/wp-content/uploads/2020/03/bg-section-01.png");
+}
+.elementor-11
+    .elementor-element.elementor-element-68b2f218:not(
+        .elementor-motion-effects-element-type-background
+    ),
+.elementor-11
+    .elementor-element.elementor-element-68b2f218
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    --wpr-bg-5bbc588e-5430-4614-920f-e2353f0847a9: url("https://cityinsurance.com.bd/wp-content/uploads/2023/11/single-service-section1.jpeg");
+}
+.elementor-11
+    .elementor-element.elementor-element-276a815:not(
+        .elementor-motion-effects-element-type-background
+    ),
+.elementor-11
+    .elementor-element.elementor-element-276a815
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    --wpr-bg-8dd550e7-3d2b-40d5-b73c-924d3a5b89e8: url("https://cityinsurance.com.bd/wp-content/uploads/2023/11/bg-section-02-1.png");
+}
+.elementor-39
+    .elementor-element.elementor-element-60f3cb3:not(
+        .elementor-motion-effects-element-type-background
+    ),
+.elementor-39
+    .elementor-element.elementor-element-60f3cb3
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    --wpr-bg-a5040b79-670c-41cc-b601-0ff5349540c0: url("https://cityinsurance.com.bd/wp-content/uploads/2020/03/bg-footer1.jpg");
+}
+rs-dotted.twoxtwo {
+    --wpr-bg-02e7ed70-9829-41c0-8c6f-8df10f0a4e43: url("https://cityinsurance.com.bd/wp-content/plugins/revslider/public/assets/assets/gridtile.png");
+}
+rs-dotted.twoxtwowhite {
+    --wpr-bg-a5c435e9-c2df-4779-a8f5-9647138b73f6: url("https://cityinsurance.com.bd/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png");
+}
+rs-dotted.threexthree {
+    --wpr-bg-734c43ac-4ba5-43cf-8592-d433923faffc: url("https://cityinsurance.com.bd/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3.png");
+}
+rs-dotted.threexthreewhite {
+    --wpr-bg-a970a93c-f794-48ec-a21b-50e7db57b689: url("https://cityinsurance.com.bd/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3_white.png");
+}
+.rs-layer.slidelink a div {
+    --wpr-bg-7a25e565-ebef-41e9-ad03-14e6a6513fc9: url("https://cityinsurance.com.bd/wp-content/plugins/revslider/public/assets/assets/coloredbg.png");
+}
+.rs-layer.slidelink a span {
+    --wpr-bg-45f8888f-3327-4996-9869-6dc057baa1a4: url("https://cityinsurance.com.bd/wp-content/plugins/revslider/public/assets/assets/coloredbg.png");
+}
+rs-loader.spinner0 {
+    --wpr-bg-74773982-f369-4419-bf8e-b7915dc1fa54: url("https://cityinsurance.com.bd/wp-content/plugins/revslider/public/assets/assets/loader.gif");
+}
+rs-loader.spinner5 {
+    --wpr-bg-487097f7-167c-4039-a431-29ba2fdb2d73: url("https://cityinsurance.com.bd/wp-content/plugins/revslider/public/assets/assets/loader.gif");
+}
+.rll-youtube-player .play {
+    --wpr-bg-b51d14f4-f1e7-48f2-9a3f-edeb7dbeb8c5: url("https://cityinsurance.com.bd/wp-content/plugins/wp-rocket/assets/img/youtube.png");
+}
+body #pagetitle.page-title {
+    --wpr-bg-1abc24ea-9ebf-4e16-9635-d88f2116f951: url("https://cityinsurance.com.bd/wp-content/uploads/2020/03/bg-page-title.jpg");
+}
+.site-content {
+    --wpr-bg-179b80f8-688c-4d9f-8537-6af12007bd94: url("https://cityinsurance.com.bd/wp-content/uploads/2020/03/bg-content.png");
+}
